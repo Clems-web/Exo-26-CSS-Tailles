@@ -1,6 +1,6 @@
 .cadre {
     border: 1px solid black;
-    width: 500x;
+    width: 500px;
     height: 300px;
     border-radius: 35px;
 }
@@ -12,6 +12,9 @@ body {
 a {
     text-decoration: none;
     color: greenyellow;
+}
+a:hover {
+    cursor: grab;
 }
 
 .shadow {
@@ -41,8 +44,14 @@ div {
     padding: 10px;
 }
 
-span {
-    max-height: 200px;
-    max-width: 500;
-    overflow: hidden;
+img {
+    max-width: 200px;
+    max-height: 500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+ul {
+    list-style-type: square;
 }
